@@ -214,7 +214,7 @@ class NpsSurveyController extends Controller
             foreach($userData as $k => $v){
                 if($answerArr[$v] && $k != 'AddTime' && $k != 'ID' && $k != 'Name'){
                     $userData[$k] = $answerArr[$v];
-                    // 如果有附加文字要加上
+                    // 如果有附加文字要加上.
                     // if($userData[$k.'Other']){
                     //     $userData[$k] .=  '：'.$userData[$k.'Other'];
                     // }
