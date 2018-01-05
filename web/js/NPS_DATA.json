@@ -1,0 +1,336 @@
+{
+  code: 200,
+  msg: "获取问卷成功",
+  data: [
+    {
+      questionNum: "S1",
+      questionType: "3",
+      questionContent: "【单选】请问您是否在__年__月【档案中被访者车辆购买日期】购买了一辆___品牌【档案中被访者车辆品牌】的车？",
+      answer: [
+        {
+          ID: "1",
+          content: "1. 是(根据下面提示调整)",
+          hasText: "0"
+        },
+        {
+          ID: "2",
+          content: "2. 否,记录具体购车日期(根据下面提示调整)",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "S2",
+      questionType: "3",
+      questionContent: "【单选】请问您的这辆车的具体车型是什么【档案中被访者车型】？",
+      answer: [
+        {
+          ID: "3",
+          content: "1. 是(继续答卷)",
+          hasText: "0"
+        },
+        {
+          ID: "4",
+          content: "2. 否,记录客户提供的具体车型(继续问卷)",
+          hasText: "1"
+        }
+      ]
+    },
+    {
+      questionNum: "S3",
+      questionType: "1",
+      questionContent: "【单选】请问您的这辆车购买的时候是新车还是二手车？ ",
+      answer: [
+        {
+          ID: "5",
+          content: "1. 新车(继续问卷)",
+          hasText: "0"
+        },
+        {
+          ID: "6",
+          content: "2. 二手车(致谢，终止)",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "S4",
+      questionType: "1",
+      questionContent: "【单选】请问您是否经常使用这辆车呢（包括驾驶和乘坐）?",
+      answer: [
+        {
+          ID: "7",
+          content: "1. 大多数时间（超过50%）是我自己使用 (继续问卷)",
+          hasText: "0"
+        },
+        {
+          ID: "8",
+          content: "2. 大多数时间（超过50%）是别人使用 (致谢，终止)",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "A1",
+      questionType: "2",
+      questionContent: "【记录】请问您是在哪家经销店购买的这辆_________【档案中被访者车辆的车型】？",
+      answer: [
+        null
+      ]
+    },
+    {
+      questionNum: "A2",
+      questionType: "1",
+      questionContent: "【单选】请您回忆一下您在_____【档案中被访者的购车经销商】购买这辆_____【档案中被访者车辆的车型】的前后情况，对经销店的整体销售服务进行满意度评价。请用0-10分打分，0分表示非常不满意，10分表示非常满意，分数越高，表示您的满意度越高，请问您会打多少分呢？",
+      answer: [
+        {
+          ID: "9",
+          content: "10",
+          hasText: "0"
+        },
+        {
+          ID: "10",
+          content: "9",
+          hasText: "0"
+        },
+        {
+          ID: "11",
+          content: "8",
+          hasText: "0"
+        },
+        {
+          ID: "12",
+          content: "7",
+          hasText: "0"
+        },
+        {
+          ID: "13",
+          content: "6",
+          hasText: "0"
+        },
+        {
+          ID: "14",
+          content: "5",
+          hasText: "0"
+        },
+        {
+          ID: "15",
+          content: "4",
+          hasText: "0"
+        },
+        {
+          ID: "16",
+          content: "3",
+          hasText: "0"
+        },
+        {
+          ID: "17",
+          content: "2",
+          hasText: "0"
+        },
+        {
+          ID: "18",
+          content: "1",
+          hasText: "0"
+        },
+        {
+          ID: "19",
+          content: "0",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "A3",
+      questionType: "3",
+      questionContent: "【单选】根据您对这家经销店销售服务的总体印象，假设您的亲朋好友身处经销商的所在地，您在多大程度上会推荐他们去这家经销店购买车？请用0-10分表示您推荐这家经销店的可能性，0分表示肯定不会推荐，10分表示肯定会推荐，分数越高，表示您推荐的可能性越大，请问您会打多少分呢？请问您给出这个推荐度分数的原因是什么呢？【记录原话】",
+      answer: [
+        {
+          ID: "20",
+          content: "10",
+          hasText: "0"
+        },
+        {
+          ID: "21",
+          content: "9",
+          hasText: "0"
+        },
+        {
+          ID: "22",
+          content: "8",
+          hasText: "0"
+        },
+        {
+          ID: "23",
+          content: "7",
+          hasText: "0"
+        },
+        {
+          ID: "24",
+          content: "6",
+          hasText: "0"
+        },
+        {
+          ID: "25",
+          content: "5",
+          hasText: "0"
+        },
+        {
+          ID: "26",
+          content: "4",
+          hasText: "0"
+        },
+        {
+          ID: "27",
+          content: "3",
+          hasText: "0"
+        },
+        {
+          ID: "28",
+          content: "2",
+          hasText: "0"
+        },
+        {
+          ID: "29",
+          content: "1",
+          hasText: "0"
+        },
+        {
+          ID: "30",
+          content: "0",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "A3-1",
+      questionType: "2",
+      questionContent: "请问您给出这个推荐度分数的原因是什么呢？【记录原话】",
+      answer: [
+        null
+      ]
+    },
+    {
+      questionNum: "A4-2a",
+      questionType: "3",
+      questionContent: "您对这家店的推荐度是比较高的，那么经销店在哪些方面给您留下了深刻印象呢？例如在销售顾问的态度、专业能力；经销店接受咨询和投诉的处理；试乘试驾；车辆购买及交付；经销店交通和硬件设施等等方面，请您谈谈您的想法。",
+      answer: [
+        null
+      ]
+    },
+    {
+      questionNum: "A4-2b",
+      questionType: "3",
+      questionContent: "请问您觉得经销店的服务在哪些方面需要进一步提高，会令您更加满意？例如在销售顾问的态度、专业能力；经销店接受咨询和投诉的处理；试乘试驾；车辆购买及交付；经销店交通和硬件设施等等方面，请您谈谈您的想法。",
+      answer: [
+        null
+      ]
+    },
+    {
+      questionNum: "C1",
+      questionType: "1",
+      questionContent: "【单选】非常感谢您的宝贵意见, 我已经如实记录下来了，我们也会督促经销商不断改进其服务。最后我们还想了解一下您的总体看法，大概还需要1-2分钟的时间，请问您是否愿意继续接受下面的访问呢？",
+      answer: [
+        {
+          ID: "31",
+          content: "1. 是(继续问卷)",
+          hasText: "0"
+        },
+        {
+          ID: "32",
+          content: "2. 否(跳到结束语)",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "C2",
+      questionType: "1",
+      questionContent: "【单选】根据您对该品牌的综合体验，您在多大程度上会推荐该品牌给其他人呢？",
+      answer: [
+        {
+          ID: "33",
+          content: "10",
+          hasText: "0"
+        },
+        {
+          ID: "34",
+          content: "9",
+          hasText: "0"
+        },
+        {
+          ID: "35",
+          content: "8",
+          hasText: "0"
+        },
+        {
+          ID: "36",
+          content: "7",
+          hasText: "0"
+        },
+        {
+          ID: "37",
+          content: "6",
+          hasText: "0"
+        },
+        {
+          ID: "38",
+          content: "5",
+          hasText: "0"
+        },
+        {
+          ID: "39",
+          content: "4",
+          hasText: "0"
+        },
+        {
+          ID: "40",
+          content: "3",
+          hasText: "0"
+        },
+        {
+          ID: "41",
+          content: "2",
+          hasText: "0"
+        },
+        {
+          ID: "42",
+          content: "1",
+          hasText: "0"
+        }
+      ]
+    },
+    {
+      questionNum: "C3",
+      questionType: "1",
+      questionContent: "【单选】请问您在下一次购车时，选择以下哪个品牌的可能性最大呢？",
+      answer: [
+        {
+          ID: "44",
+          content: "1. 奔驰",
+          hasText: "0"
+        },
+        {
+          ID: "45",
+          content: "2. 宝马",
+          hasText: "0"
+        },
+        {
+          ID: "46",
+          content: "3. 奥迪",
+          hasText: "0"
+        },
+        {
+          ID: "47",
+          content: "4. 雷克萨斯",
+          hasText: "0"
+        },
+        {
+          ID: "48",
+          content: "5. 其他（请注明 )",
+          hasText: "1"
+        }
+      ]
+    }
+  ]
+}
