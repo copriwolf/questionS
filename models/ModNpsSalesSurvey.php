@@ -52,7 +52,7 @@ class ModNpsSalesSurvey extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['Name', 'S1', 'S2', 'S3', 'S4', 'S5', 'A1', 'A2', 'A3', 'A31', 'A42A1', 'A42A2', 'A42A3', 'A42A4', 'A42A5', 'A42B1', 'A42B2', 'A42B3', 'A42B4', 'A42B5', 'C1', 'C2', 'C3', 'AddTime'], 'required'],
+            [['Name', 'S1', 'S2', 'S3', 'S4', 'S5', 'A1', 'A2', 'A3', 'A31', 'C1', 'C2', 'C3', 'AddTime'], 'required'],
             [['S1', 'S2', 'S3', 'S4', 'S5', 'A2', 'A3', 'C1', 'C2', 'C3'], 'integer'],
             [['AddTime'], 'safe'],
             [['Name', 'S1Other', 'S2Other', 'A1', 'A31', 'A42A1', 'A42A2', 'A42A3', 'A42A4', 'A42A5', 'A42B1', 'A42B2', 'A42B3', 'A42B4', 'A42B5', 'C3Other'], 'string', 'max' => 255],
